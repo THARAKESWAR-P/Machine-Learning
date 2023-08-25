@@ -1,0 +1,51 @@
+so we have 2 elements as input. one is input source and other is input target. what we want to do is to map expressions of face of input source to input target.
+we track the attributes of this person face frame by frame as you know vedio have property of some frames per second.
+each frame is analysed in every vedio and what we extracted is the face expression of the person like
+the movement of eyebros, chin and lips. not only the visual effects voice is also copied.
+similar processing will be done to the input target and at final what we do is expression transfer of input source to input target.
+
+according to the very first researcher of standford university this slide explain the expression of reenactment.
+Reenactment -  use of the   to achieve something.
+here the source sequence is obama with face expression like this and target source is like this.
+so after tracking expressions of obama and this person and processing deepfake would result like this.
+
+programs like fake app, the most popular one for making deepfakes, it takes of human assistants to change frame in here like this.
+what we have realized till now is deepfake is a realistic looking vedios to gain popularity.
+despite being banned on the major websites thre is a rich domain where we can find deep learning which makes them possible.
+the more the insource data the better the effect, software tries to recognize patterns in speech and , 
+introduce new elements like someone elses speech and face and deepfake is born.
+
+deepfake too also have positive potentials like making a vedio of a actor who have lost his life and create digital voices of a people who lost their voices and also there are many uses.
+
+there are many many deepfake exists as many as you want to see.
+
+positive implications:
+	deepfake technologies have uses in many industries. such as in production, education and criminal forensics
+various buissiness field like  ecommerce.
+film industry has many uses like to create classic scenes in movies, creating new movies with deepfakes of long-dead actors.
+this technology allows for automatic and realistic dubbing in any language. example 
+in 2019 global malaria awareness campaign featuring by david beckom brokedown language barriers through a education 
+that translates if page and xchanges facial and mock moments and everyone appeared to be speaking the same language.
+
+many businesses uses this technology for advertising in various ways.
+example- fashion industries show fashion outfits on variety of models with different skin tones and different heights and
+weights.
+
+cultural and entertainment businesses can use deepfakes for artistic purposes 
+ex: samsungs ai in moscow brought monalisa to life by using deepfake technology.
+
+this tech helps us reconstruct...
+
+
+possible threats -
+ 
+deepfake can be ...
+
+ex; as soon the fake vedio go viral people believe intially and share it to their friends and 
+so the target person become embarresed after watching such unusual vedios .
+it is highly probable that journalism industry is going to have to face a massive consumer track issue.
+due to deepfakes these put pressure on the journ..
+
+this tech. can also be used to creating news...
+
+deepfakes have birthed trust of citizens towards the authorities which provides information.
