@@ -1,0 +1,963 @@
+digraph "Regression Tree" {
+	node [shape=rectangle]
+	"ID 193, 
+age <= 14.0 ? 69.20213223161034
+" -> "ID 59, 
+superplasticizer <= 8.2 ? 60.95985595296439
+" [label=True]
+	"ID 193, 
+age <= 14.0 ? 69.20213223161034
+" -> "ID 192, 
+cement <= 356.0 ? 71.07987805499323
+" [label=False]
+	"ID 59, 
+superplasticizer <= 8.2 ? 60.95985595296439
+" -> "ID 43, 
+cement <= 500.0 ? 20.460551954048455
+" [label=True]
+	"ID 59, 
+superplasticizer <= 8.2 ? 60.95985595296439
+" -> "ID 58, 
+cement <= 249.1 ? 53.70290778536943
+" [label=False]
+	"ID 192, 
+cement <= 356.0 ? 71.07987805499323
+" -> "ID 168, 
+cement <= 164.6 ? 39.02431760411659
+" [label=True]
+	"ID 192, 
+cement <= 356.0 ? 71.07987805499323
+" -> "ID 191, 
+water <= 181.1 ? 70.60214710884355
+" [label=False]
+	"ID 43, 
+cement <= 500.0 ? 20.460551954048455
+" -> "ID 41, 
+age <= 7.0 ? 13.843920749526944
+" [label=True]
+	"ID 43, 
+cement <= 500.0 ? 20.460551954048455
+" -> "ID 42, 
+leaf leaf_value -> 48.51333333333333
+" [label=False]
+	"ID 58, 
+cement <= 249.1 ? 53.70290778536943
+" -> "ID 46, 
+age <= 3.0 ? 35.29960017006803
+" [label=True]
+	"ID 58, 
+cement <= 249.1 ? 53.70290778536943
+" -> "ID 57, 
+age <= 3.0 ? 51.54545184703436
+" [label=False]
+	"ID 168, 
+cement <= 164.6 ? 39.02431760411659
+" -> "ID 86, 
+slag <= 115.0 ? 41.91883867124678
+" [label=True]
+	"ID 168, 
+cement <= 164.6 ? 39.02431760411659
+" -> "ID 167, 
+water <= 183.8 ? 31.769481193302283
+" [label=False]
+	"ID 191, 
+water <= 181.1 ? 70.60214710884355
+" -> "ID 183, 
+water <= 162.0 ? 24.58908356916696
+" [label=True]
+	"ID 191, 
+water <= 181.1 ? 70.60214710884355
+" -> "ID 190, 
+superplasticizer <= 3.0 ? 43.40395479365074
+" [label=False]
+	"ID 41, 
+age <= 7.0 ? 13.843920749526944
+" -> "ID 29, 
+fineaggregate <= 739.0 ? 9.15612348287101
+" [label=True]
+	"ID 41, 
+age <= 7.0 ? 13.843920749526944
+" -> "ID 40, 
+fineaggregate <= 746.8 ? 13.179358299039794
+" [label=False]
+	"ID 46, 
+age <= 3.0 ? 35.29960017006803
+" -> "ID 44, 
+leaf leaf_value -> 15.9775
+" [label=True]
+	"ID 46, 
+age <= 3.0 ? 35.29960017006803
+" -> "ID 45, 
+leaf leaf_value -> 27.983333333333334
+" [label=False]
+	"ID 57, 
+age <= 3.0 ? 51.54545184703436
+" -> "ID 51, 
+cement <= 387.0 ? 15.860813445378156
+" [label=True]
+	"ID 57, 
+age <= 3.0 ? 51.54545184703436
+" -> "ID 56, 
+cement <= 387.0 ? 13.744125954231848
+" [label=False]
+	"ID 86, 
+slag <= 115.0 ? 41.91883867124678
+" -> "ID 66, 
+slag <= 15.0 ? 7.818980761904767
+" [label=True]
+	"ID 86, 
+slag <= 115.0 ? 41.91883867124678
+" -> "ID 85, 
+superplasticizer <= 10.4 ? 11.155245002313336
+" [label=False]
+	"ID 167, 
+water <= 183.8 ? 31.769481193302283
+" -> "ID 123, 
+slag <= 161.0 ? 46.199401069812225
+" [label=True]
+	"ID 167, 
+water <= 183.8 ? 31.769481193302283
+" -> "ID 166, 
+fineaggregate <= 694.1 ? 17.829675097448018
+" [label=False]
+	"ID 183, 
+water <= 162.0 ? 24.58908356916696
+" -> "ID 179, 
+water <= 154.0 ? 22.826310734955328
+" [label=True]
+	"ID 183, 
+water <= 162.0 ? 24.58908356916696
+" -> "ID 182, 
+water <= 165.0 ? 19.946847054190293
+" [label=False]
+	"ID 190, 
+superplasticizer <= 3.0 ? 43.40395479365074
+" -> "ID 188, 
+cement <= 475.0 ? 39.59986286530612
+" [label=True]
+	"ID 190, 
+superplasticizer <= 3.0 ? 43.40395479365074
+" -> "ID 189, 
+leaf leaf_value -> 60.19199999999999
+" [label=False]
+	"ID 29, 
+fineaggregate <= 739.0 ? 9.15612348287101
+" -> "ID 5, 
+cement <= 288.0 ? 15.108189524834131
+" [label=True]
+	"ID 29, 
+fineaggregate <= 739.0 ? 9.15612348287101
+" -> "ID 28, 
+cement <= 153.0 ? 5.759619174149716
+" [label=False]
+	"ID 40, 
+fineaggregate <= 746.8 ? 13.179358299039794
+" -> "ID 30, 
+leaf leaf_value -> 34.75666666666667
+" [label=True]
+	"ID 40, 
+fineaggregate <= 746.8 ? 13.179358299039794
+" -> "ID 39, 
+fineaggregate <= 870.3 ? 6.3308204545454565
+" [label=False]
+	"ID 51, 
+cement <= 387.0 ? 15.860813445378156
+" -> "ID 49, 
+fineaggregate <= 756.7 ? 8.074297661738486
+" [label=True]
+	"ID 51, 
+cement <= 387.0 ? 15.860813445378156
+" -> "ID 50, 
+leaf leaf_value -> 35.18857142857143
+" [label=False]
+	"ID 56, 
+cement <= 387.0 ? 13.744125954231848
+" -> "ID 54, 
+fineaggregate <= 659.9 ? 4.879630655791729
+" [label=True]
+	"ID 56, 
+cement <= 387.0 ? 13.744125954231848
+" -> "ID 55, 
+leaf leaf_value -> 49.244285714285716
+" [label=False]
+	"ID 66, 
+slag <= 15.0 ? 7.818980761904767
+" -> "ID 64, 
+water <= 181.6 ? 5.273526077097506
+" [label=True]
+	"ID 66, 
+slag <= 15.0 ? 7.818980761904767
+" -> "ID 65, 
+leaf leaf_value -> 21.545
+" [label=False]
+	"ID 85, 
+superplasticizer <= 10.4 ? 11.155245002313336
+" -> "ID 83, 
+cement <= 143.7 ? 9.740069035947712
+" [label=True]
+	"ID 85, 
+superplasticizer <= 10.4 ? 11.155245002313336
+" -> "ID 84, 
+leaf leaf_value -> 36.49923076923077
+" [label=False]
+	"ID 123, 
+slag <= 161.0 ? 46.199401069812225
+" -> "ID 117, 
+slag <= 50.1 ? 19.553035322218065
+" [label=True]
+	"ID 123, 
+slag <= 161.0 ? 46.199401069812225
+" -> "ID 122, 
+cement <= 166.0 ? 43.91790865051905
+" [label=False]
+	"ID 166, 
+fineaggregate <= 694.1 ? 17.829675097448018
+" -> "ID 132, 
+age <= 28.0 ? 11.77165368654127
+" [label=True]
+	"ID 166, 
+fineaggregate <= 694.1 ? 17.829675097448018
+" -> "ID 165, 
+coarseaggregate <= 1069.2 ? 13.817598818540432
+" [label=False]
+	"ID 179, 
+water <= 154.0 ? 22.826310734955328
+" -> "ID 177, 
+slag <= 151.2 ? 9.714250271739143
+" [label=True]
+	"ID 179, 
+water <= 154.0 ? 22.826310734955328
+" -> "ID 178, 
+leaf leaf_value -> 54.44461538461538
+" [label=False]
+	"ID 182, 
+water <= 165.0 ? 19.946847054190293
+" -> "ID 180, 
+leaf leaf_value -> 75.79999999999998
+" [label=True]
+	"ID 182, 
+water <= 165.0 ? 19.946847054190293
+" -> "ID 181, 
+leaf leaf_value -> 66.85916666666667
+" [label=False]
+	"ID 188, 
+cement <= 475.0 ? 39.59986286530612
+" -> "ID 186, 
+age <= 56.0 ? 25.971974524102578
+" [label=True]
+	"ID 188, 
+cement <= 475.0 ? 39.59986286530612
+" -> "ID 187, 
+leaf leaf_value -> 54.295
+" [label=False]
+	"ID 5, 
+cement <= 288.0 ? 15.108189524834131
+" -> "ID 3, 
+age <= 3.0 ? 16.302528040404045
+" [label=True]
+	"ID 5, 
+cement <= 288.0 ? 15.108189524834131
+" -> "ID 4, 
+leaf leaf_value -> 25.13818181818182
+" [label=False]
+	"ID 28, 
+cement <= 153.0 ? 5.759619174149716
+" -> "ID 6, 
+leaf leaf_value -> 6.6850000000000005
+" [label=True]
+	"ID 28, 
+cement <= 153.0 ? 5.759619174149716
+" -> "ID 27, 
+cement <= 310.0 ? 3.44877795729354
+" [label=False]
+	"ID 39, 
+fineaggregate <= 870.3 ? 6.3308204545454565
+" -> "ID 37, 
+flyash <= 163.8 ? 5.500244958677678
+" [label=True]
+	"ID 39, 
+fineaggregate <= 870.3 ? 6.3308204545454565
+" -> "ID 38, 
+leaf leaf_value -> 14.86
+" [label=False]
+	"ID 49, 
+fineaggregate <= 756.7 ? 8.074297661738486
+" -> "ID 47, 
+leaf leaf_value -> 31.03333333333333
+" [label=True]
+	"ID 49, 
+fineaggregate <= 756.7 ? 8.074297661738486
+" -> "ID 48, 
+leaf leaf_value -> 25.08727272727273
+" [label=False]
+	"ID 54, 
+fineaggregate <= 659.9 ? 4.879630655791729
+" -> "ID 52, 
+leaf leaf_value -> 46.56666666666666
+" [label=True]
+	"ID 54, 
+fineaggregate <= 659.9 ? 4.879630655791729
+" -> "ID 53, 
+leaf leaf_value -> 40.772142857142846
+" [label=False]
+	"ID 64, 
+water <= 181.6 ? 5.273526077097506
+" -> "ID 62, 
+superplasticizer <= 11.1 ? 0.9455113636363643
+" [label=True]
+	"ID 64, 
+water <= 181.6 ? 5.273526077097506
+" -> "ID 63, 
+leaf leaf_value -> 10.286666666666667
+" [label=False]
+	"ID 83, 
+cement <= 143.7 ? 9.740069035947712
+" -> "ID 71, 
+fineaggregate <= 806.9 ? 11.105556249999996
+" [label=True]
+	"ID 83, 
+cement <= 143.7 ? 9.740069035947712
+" -> "ID 82, 
+coarseaggregate <= 854.0 ? 9.758242815078521
+" [label=False]
+	"ID 117, 
+slag <= 50.1 ? 19.553035322218065
+" -> "ID 105, 
+cement <= 212.0 ? 27.55534048988777
+" [label=True]
+	"ID 117, 
+slag <= 50.1 ? 19.553035322218065
+" -> "ID 116, 
+water <= 164.0 ? 36.21700587403839
+" [label=False]
+	"ID 122, 
+cement <= 166.0 ? 43.91790865051905
+" -> "ID 118, 
+leaf leaf_value -> 37.91
+" [label=True]
+	"ID 122, 
+cement <= 166.0 ? 43.91790865051905
+" -> "ID 121, 
+superplasticizer <= 9.5 ? 29.743389062499986
+" [label=False]
+	"ID 132, 
+age <= 28.0 ? 11.77165368654127
+" -> "ID 128, 
+cement <= 167.0 ? 16.3810218685121
+" [label=True]
+	"ID 132, 
+age <= 28.0 ? 11.77165368654127
+" -> "ID 131, 
+fineaggregate <= 594.0 ? 19.75549859449193
+" [label=False]
+	"ID 165, 
+coarseaggregate <= 1069.2 ? 13.817598818540432
+" -> "ID 163, 
+fineaggregate <= 850.0 ? 6.521319507396797
+" [label=True]
+	"ID 165, 
+coarseaggregate <= 1069.2 ? 13.817598818540432
+" -> "ID 164, 
+leaf leaf_value -> 20.329
+" [label=False]
+	"ID 177, 
+slag <= 151.2 ? 9.714250271739143
+" -> "ID 175, 
+coarseaggregate <= 1033.0 ? 8.64715602079395
+" [label=True]
+	"ID 177, 
+slag <= 151.2 ? 9.714250271739143
+" -> "ID 176, 
+leaf leaf_value -> 79.4
+" [label=False]
+	"ID 186, 
+age <= 56.0 ? 25.971974524102578
+" -> "ID 184, 
+leaf leaf_value -> 35.060833333333335
+" [label=True]
+	"ID 186, 
+age <= 56.0 ? 25.971974524102578
+" -> "ID 185, 
+leaf leaf_value -> 45.26153846153847
+" [label=False]
+	"ID 3, 
+age <= 3.0 ? 16.302528040404045
+" -> "ID 1, 
+leaf leaf_value -> 10.575000000000001
+" [label=True]
+	"ID 3, 
+age <= 3.0 ? 16.302528040404045
+" -> "ID 2, 
+leaf leaf_value -> 19.705454545454543
+" [label=False]
+	"ID 27, 
+cement <= 310.0 ? 3.44877795729354
+" -> "ID 19, 
+superplasticizer <= 5.7 ? 2.8380616744186025
+" [label=True]
+	"ID 27, 
+cement <= 310.0 ? 3.44877795729354
+" -> "ID 26, 
+age <= 1.0 ? 5.349736243340777
+" [label=False]
+	"ID 37, 
+flyash <= 163.8 ? 5.500244958677678
+" -> "ID 35, 
+superplasticizer <= 6.7 ? 2.568725333333333
+" [label=True]
+	"ID 37, 
+flyash <= 163.8 ? 5.500244958677678
+" -> "ID 36, 
+leaf leaf_value -> 31.38
+" [label=False]
+	"ID 62, 
+superplasticizer <= 11.1 ? 0.9455113636363643
+" -> "ID 60, 
+leaf leaf_value -> 13.7575
+" [label=True]
+	"ID 62, 
+superplasticizer <= 11.1 ? 0.9455113636363643
+" -> "ID 61, 
+leaf leaf_value -> 15.956363636363635
+" [label=False]
+	"ID 71, 
+fineaggregate <= 806.9 ? 11.105556249999996
+" -> "ID 69, 
+age <= 28.0 ? 9.420838020833328
+" [label=True]
+	"ID 71, 
+fineaggregate <= 806.9 ? 11.105556249999996
+" -> "ID 70, 
+leaf leaf_value -> 25.4575
+" [label=False]
+	"ID 82, 
+coarseaggregate <= 854.0 ? 9.758242815078521
+" -> "ID 72, 
+leaf leaf_value -> 31.291249999999998
+" [label=True]
+	"ID 82, 
+coarseaggregate <= 854.0 ? 9.758242815078521
+" -> "ID 81, 
+water <= 200.0 ? 4.596598865877713
+" [label=False]
+	"ID 105, 
+cement <= 212.0 ? 27.55534048988777
+" -> "ID 91, 
+age <= 28.0 ? 34.442563824198785
+" [label=True]
+	"ID 105, 
+cement <= 212.0 ? 27.55534048988777
+" -> "ID 104, 
+age <= 28.0 ? 24.631287748467656
+" [label=False]
+	"ID 116, 
+water <= 164.0 ? 36.21700587403839
+" -> "ID 106, 
+leaf leaf_value -> 58.94461538461538
+" [label=True]
+	"ID 116, 
+water <= 164.0 ? 36.21700587403839
+" -> "ID 115, 
+age <= 28.0 ? 12.470379717267807
+" [label=False]
+	"ID 121, 
+superplasticizer <= 9.5 ? 29.743389062499986
+" -> "ID 119, 
+leaf leaf_value -> 60.62125
+" [label=True]
+	"ID 121, 
+superplasticizer <= 9.5 ? 29.743389062499986
+" -> "ID 120, 
+leaf leaf_value -> 71.52875
+" [label=False]
+	"ID 128, 
+cement <= 167.0 ? 16.3810218685121
+" -> "ID 124, 
+leaf leaf_value -> 28.92
+" [label=True]
+	"ID 128, 
+cement <= 167.0 ? 16.3810218685121
+" -> "ID 127, 
+fineaggregate <= 594.0 ? 15.176096000000015
+" [label=False]
+	"ID 131, 
+fineaggregate <= 594.0 ? 19.75549859449193
+" -> "ID 129, 
+leaf leaf_value -> 39.702000000000005
+" [label=True]
+	"ID 131, 
+fineaggregate <= 594.0 ? 19.75549859449193
+" -> "ID 130, 
+leaf leaf_value -> 49.625384615384604
+" [label=False]
+	"ID 163, 
+fineaggregate <= 850.0 ? 6.521319507396797
+" -> "ID 159, 
+water <= 195.0 ? 5.639331050881594
+" [label=True]
+	"ID 163, 
+fineaggregate <= 850.0 ? 6.521319507396797
+" -> "ID 162, 
+age <= 28.0 ? 15.745065308006861
+" [label=False]
+	"ID 175, 
+coarseaggregate <= 1033.0 ? 8.64715602079395
+" -> "ID 173, 
+cement <= 425.0 ? 8.529474083333335
+" [label=True]
+	"ID 175, 
+coarseaggregate <= 1033.0 ? 8.64715602079395
+" -> "ID 174, 
+leaf leaf_value -> 56.21
+" [label=False]
+	"ID 19, 
+superplasticizer <= 5.7 ? 2.8380616744186025
+" -> "ID 17, 
+age <= 3.0 ? 3.8223690120317784
+" [label=True]
+	"ID 19, 
+superplasticizer <= 5.7 ? 2.8380616744186025
+" -> "ID 18, 
+leaf leaf_value -> 16.235
+" [label=False]
+	"ID 26, 
+age <= 1.0 ? 5.349736243340777
+" -> "ID 20, 
+leaf leaf_value -> 6.27
+" [label=True]
+	"ID 26, 
+age <= 1.0 ? 5.349736243340777
+" -> "ID 25, 
+cement <= 385.0 ? 3.0635826591271567
+" [label=False]
+	"ID 35, 
+superplasticizer <= 6.7 ? 2.568725333333333
+" -> "ID 33, 
+cement <= 350.0 ? 3.078570940170944
+" [label=True]
+	"ID 35, 
+superplasticizer <= 6.7 ? 2.568725333333333
+" -> "ID 34, 
+leaf leaf_value -> 25.998
+" [label=False]
+	"ID 69, 
+age <= 28.0 ? 9.420838020833328
+" -> "ID 67, 
+leaf leaf_value -> 32.01666666666667
+" [label=True]
+	"ID 69, 
+age <= 28.0 ? 9.420838020833328
+" -> "ID 68, 
+leaf leaf_value -> 39.105
+" [label=False]
+	"ID 81, 
+water <= 200.0 ? 4.596598865877713
+" -> "ID 79, 
+coarseaggregate <= 1002.0 ? 4.062222321428571
+" [label=True]
+	"ID 81, 
+water <= 200.0 ? 4.596598865877713
+" -> "ID 80, 
+leaf leaf_value -> 16.5
+" [label=False]
+	"ID 91, 
+age <= 28.0 ? 34.442563824198785
+" -> "ID 87, 
+leaf leaf_value -> 26.84272727272727
+" [label=True]
+	"ID 91, 
+age <= 28.0 ? 34.442563824198785
+" -> "ID 90, 
+slag <= 42.1 ? 12.324666796875
+" [label=False]
+	"ID 104, 
+age <= 28.0 ? 24.631287748467656
+" -> "ID 98, 
+water <= 145.0 ? 19.27775601348415
+" [label=True]
+	"ID 104, 
+age <= 28.0 ? 24.631287748467656
+" -> "ID 103, 
+water <= 143.3 ? 12.379891334541064
+" [label=False]
+	"ID 115, 
+age <= 28.0 ? 12.470379717267807
+" -> "ID 113, 
+slag <= 145.0 ? 8.775418777777777
+" [label=True]
+	"ID 115, 
+age <= 28.0 ? 12.470379717267807
+" -> "ID 114, 
+leaf leaf_value -> 51.19111111111111
+" [label=False]
+	"ID 127, 
+fineaggregate <= 594.0 ? 15.176096000000015
+" -> "ID 125, 
+leaf leaf_value -> 31.55
+" [label=True]
+	"ID 127, 
+fineaggregate <= 594.0 ? 15.176096000000015
+" -> "ID 126, 
+leaf leaf_value -> 43.010000000000005
+" [label=False]
+	"ID 159, 
+water <= 195.0 ? 5.639331050881594
+" -> "ID 149, 
+coarseaggregate <= 951.0 ? 11.823277630953811
+" [label=True]
+	"ID 159, 
+water <= 195.0 ? 5.639331050881594
+" -> "ID 158, 
+coarseaggregate <= 801.1 ? 3.43602702411874
+" [label=False]
+	"ID 162, 
+age <= 28.0 ? 15.745065308006861
+" -> "ID 160, 
+leaf leaf_value -> 23.195714285714285
+" [label=True]
+	"ID 162, 
+age <= 28.0 ? 15.745065308006861
+" -> "ID 161, 
+leaf leaf_value -> 31.42166666666667
+" [label=False]
+	"ID 173, 
+cement <= 425.0 ? 8.529474083333335
+" -> "ID 171, 
+age <= 28.0 ? 4.425563460317462
+" [label=True]
+	"ID 173, 
+cement <= 425.0 ? 8.529474083333335
+" -> "ID 172, 
+leaf leaf_value -> 70.0
+" [label=False]
+	"ID 17, 
+age <= 3.0 ? 3.8223690120317784
+" -> "ID 11, 
+water <= 193.0 ? 2.072540082644628
+" [label=True]
+	"ID 17, 
+age <= 3.0 ? 3.8223690120317784
+" -> "ID 16, 
+slag <= 147.2 ? 2.1295493555316867
+" [label=False]
+	"ID 25, 
+cement <= 385.0 ? 3.0635826591271567
+" -> "ID 23, 
+fineaggregate <= 775.0 ? 3.255146827595304
+" [label=True]
+	"ID 25, 
+cement <= 385.0 ? 3.0635826591271567
+" -> "ID 24, 
+leaf leaf_value -> 22.016666666666666
+" [label=False]
+	"ID 33, 
+cement <= 350.0 ? 3.078570940170944
+" -> "ID 31, 
+leaf leaf_value -> 21.608461538461537
+" [label=True]
+	"ID 33, 
+cement <= 350.0 ? 3.078570940170944
+" -> "ID 32, 
+leaf leaf_value -> 26.770000000000003
+" [label=False]
+	"ID 79, 
+coarseaggregate <= 1002.0 ? 4.062222321428571
+" -> "ID 77, 
+slag <= 183.4 ? 4.385830185407493
+" [label=True]
+	"ID 79, 
+coarseaggregate <= 1002.0 ? 4.062222321428571
+" -> "ID 78, 
+leaf leaf_value -> 19.213333333333335
+" [label=False]
+	"ID 90, 
+slag <= 42.1 ? 12.324666796875
+" -> "ID 88, 
+leaf leaf_value -> 36.76
+" [label=True]
+	"ID 90, 
+slag <= 42.1 ? 12.324666796875
+" -> "ID 89, 
+leaf leaf_value -> 44.8675
+" [label=False]
+	"ID 98, 
+water <= 145.0 ? 19.27775601348415
+" -> "ID 92, 
+leaf leaf_value -> 50.660000000000004
+" [label=True]
+	"ID 98, 
+water <= 145.0 ? 19.27775601348415
+" -> "ID 97, 
+coarseaggregate <= 1053.6 ? 17.859041559393837
+" [label=False]
+	"ID 103, 
+water <= 143.3 ? 12.379891334541064
+" -> "ID 99, 
+leaf leaf_value -> 66.42
+" [label=True]
+	"ID 103, 
+water <= 143.3 ? 12.379891334541064
+" -> "ID 102, 
+fineaggregate <= 777.5 ? 16.136089753053078
+" [label=False]
+	"ID 113, 
+slag <= 145.0 ? 8.775418777777777
+" -> "ID 111, 
+superplasticizer <= 10.4 ? 5.4706969135802535
+" [label=True]
+	"ID 113, 
+slag <= 145.0 ? 8.775418777777777
+" -> "ID 112, 
+leaf leaf_value -> 52.445
+" [label=False]
+	"ID 149, 
+coarseaggregate <= 951.0 ? 11.823277630953811
+" -> "ID 135, 
+slag <= 111.0 ? 37.15828204166665
+" [label=True]
+	"ID 149, 
+coarseaggregate <= 951.0 ? 11.823277630953811
+" -> "ID 148, 
+age <= 28.0 ? 19.920151801569574
+" [label=False]
+	"ID 158, 
+coarseaggregate <= 801.1 ? 3.43602702411874
+" -> "ID 150, 
+leaf leaf_value -> 39.655
+" [label=True]
+	"ID 158, 
+coarseaggregate <= 801.1 ? 3.43602702411874
+" -> "ID 157, 
+age <= 56.0 ? 4.8115757728803175
+" [label=False]
+	"ID 171, 
+age <= 28.0 ? 4.425563460317462
+" -> "ID 169, 
+leaf leaf_value -> 61.2875
+" [label=True]
+	"ID 171, 
+age <= 28.0 ? 4.425563460317462
+" -> "ID 170, 
+leaf leaf_value -> 65.50428571428571
+" [label=False]
+	"ID 11, 
+water <= 193.0 ? 2.072540082644628
+" -> "ID 9, 
+coarseaggregate <= 948.9 ? 1.7748520833333337
+" [label=True]
+	"ID 11, 
+water <= 193.0 ? 2.072540082644628
+" -> "ID 10, 
+leaf leaf_value -> 7.8950000000000005
+" [label=False]
+	"ID 16, 
+slag <= 147.2 ? 2.1295493555316867
+" -> "ID 14, 
+cement <= 252.0 ? 1.4460258404683959
+" [label=True]
+	"ID 16, 
+slag <= 147.2 ? 2.1295493555316867
+" -> "ID 15, 
+leaf leaf_value -> 18.655
+" [label=False]
+	"ID 23, 
+fineaggregate <= 775.0 ? 3.255146827595304
+" -> "ID 21, 
+leaf leaf_value -> 19.27857142857143
+" [label=True]
+	"ID 23, 
+fineaggregate <= 775.0 ? 3.255146827595304
+" -> "ID 22, 
+leaf leaf_value -> 15.538333333333334
+" [label=False]
+	"ID 77, 
+slag <= 183.4 ? 4.385830185407493
+" -> "ID 75, 
+flyash <= 92.0 ? 1.1462777261492834
+" [label=True]
+	"ID 77, 
+slag <= 183.4 ? 4.385830185407493
+" -> "ID 76, 
+leaf leaf_value -> 29.624999999999996
+" [label=False]
+	"ID 97, 
+coarseaggregate <= 1053.6 ? 17.859041559393837
+" -> "ID 95, 
+fineaggregate <= 817.0 ? 10.800531580161472
+" [label=True]
+	"ID 97, 
+coarseaggregate <= 1053.6 ? 17.859041559393837
+" -> "ID 96, 
+leaf leaf_value -> 25.545
+" [label=False]
+	"ID 102, 
+fineaggregate <= 777.5 ? 16.136089753053078
+" -> "ID 100, 
+leaf leaf_value -> 53.82222222222222
+" [label=True]
+	"ID 102, 
+fineaggregate <= 777.5 ? 16.136089753053078
+" -> "ID 101, 
+leaf leaf_value -> 45.59142857142858
+" [label=False]
+	"ID 111, 
+superplasticizer <= 10.4 ? 5.4706969135802535
+" -> "ID 109, 
+water <= 171.0 ? 3.090674999999999
+" [label=True]
+	"ID 111, 
+superplasticizer <= 10.4 ? 5.4706969135802535
+" -> "ID 110, 
+leaf leaf_value -> 35.955
+" [label=False]
+	"ID 135, 
+slag <= 111.0 ? 37.15828204166665
+" -> "ID 133, 
+leaf leaf_value -> 37.353333333333325
+" [label=True]
+	"ID 135, 
+slag <= 111.0 ? 37.15828204166665
+" -> "ID 134, 
+leaf leaf_value -> 49.79625
+" [label=False]
+	"ID 148, 
+age <= 28.0 ? 19.920151801569574
+" -> "ID 140, 
+cement <= 325.0 ? 1.2762997245179069
+" [label=True]
+	"ID 148, 
+age <= 28.0 ? 19.920151801569574
+" -> "ID 147, 
+coarseaggregate <= 970.0 ? 4.102800925925925
+" [label=False]
+	"ID 157, 
+age <= 56.0 ? 4.8115757728803175
+" -> "ID 155, 
+coarseaggregate <= 973.4 ? 4.882366805555554
+" [label=True]
+	"ID 157, 
+age <= 56.0 ? 4.8115757728803175
+" -> "ID 156, 
+leaf leaf_value -> 35.25111111111111
+" [label=False]
+	"ID 9, 
+coarseaggregate <= 948.9 ? 1.7748520833333337
+" -> "ID 7, 
+leaf leaf_value -> 8.82
+" [label=True]
+	"ID 9, 
+coarseaggregate <= 948.9 ? 1.7748520833333337
+" -> "ID 8, 
+leaf leaf_value -> 11.896666666666667
+" [label=False]
+	"ID 14, 
+cement <= 252.0 ? 1.4460258404683959
+" -> "ID 12, 
+leaf leaf_value -> 12.658181818181818
+" [label=True]
+	"ID 14, 
+cement <= 252.0 ? 1.4460258404683959
+" -> "ID 13, 
+leaf leaf_value -> 15.09375
+" [label=False]
+	"ID 75, 
+flyash <= 92.0 ? 1.1462777261492834
+" -> "ID 73, 
+leaf leaf_value -> 23.396
+" [label=True]
+	"ID 75, 
+flyash <= 92.0 ? 1.1462777261492834
+" -> "ID 74, 
+leaf leaf_value -> 25.571428571428566
+" [label=False]
+	"ID 95, 
+fineaggregate <= 817.0 ? 10.800531580161472
+" -> "ID 93, 
+leaf leaf_value -> 41.43666666666666
+" [label=True]
+	"ID 95, 
+fineaggregate <= 817.0 ? 10.800531580161472
+" -> "ID 94, 
+leaf leaf_value -> 34.224000000000004
+" [label=False]
+	"ID 109, 
+water <= 171.0 ? 3.090674999999999
+" -> "ID 107, 
+leaf leaf_value -> 46.4425
+" [label=True]
+	"ID 109, 
+water <= 171.0 ? 3.090674999999999
+" -> "ID 108, 
+leaf leaf_value -> 42.3825
+" [label=False]
+	"ID 140, 
+cement <= 325.0 ? 1.2762997245179069
+" -> "ID 138, 
+slag <= 155.5 ? 1.7052892857142865
+" [label=True]
+	"ID 140, 
+cement <= 325.0 ? 1.2762997245179069
+" -> "ID 139, 
+leaf leaf_value -> 32.03166666666667
+" [label=False]
+	"ID 147, 
+coarseaggregate <= 970.0 ? 4.102800925925925
+" -> "ID 141, 
+leaf leaf_value -> 35.61333333333334
+" [label=True]
+	"ID 147, 
+coarseaggregate <= 970.0 ? 4.102800925925925
+" -> "ID 146, 
+slag <= 132.4 ? 3.2990268700072622
+" [label=False]
+	"ID 155, 
+coarseaggregate <= 973.4 ? 4.882366805555554
+" -> "ID 153, 
+cement <= 300.0 ? 4.579760666666671
+" [label=True]
+	"ID 155, 
+coarseaggregate <= 973.4 ? 4.882366805555554
+" -> "ID 154, 
+leaf leaf_value -> 25.384999999999998
+" [label=False]
+	"ID 138, 
+slag <= 155.5 ? 1.7052892857142865
+" -> "ID 136, 
+leaf leaf_value -> 28.343333333333334
+" [label=True]
+	"ID 138, 
+slag <= 155.5 ? 1.7052892857142865
+" -> "ID 137, 
+leaf leaf_value -> 30.975714285714282
+" [label=False]
+	"ID 146, 
+slag <= 132.4 ? 3.2990268700072622
+" -> "ID 144, 
+age <= 90.0 ? 2.735735683391005
+" [label=True]
+	"ID 146, 
+slag <= 132.4 ? 3.2990268700072622
+" -> "ID 145, 
+leaf leaf_value -> 47.78
+" [label=False]
+	"ID 153, 
+cement <= 300.0 ? 4.579760666666671
+" -> "ID 151, 
+leaf leaf_value -> 29.566666666666666
+" [label=True]
+	"ID 153, 
+cement <= 300.0 ? 4.579760666666671
+" -> "ID 152, 
+leaf leaf_value -> 33.935
+" [label=False]
+	"ID 144, 
+age <= 90.0 ? 2.735735683391005
+" -> "ID 142, 
+leaf leaf_value -> 38.09625
+" [label=True]
+	"ID 144, 
+age <= 90.0 ? 2.735735683391005
+" -> "ID 143, 
+leaf leaf_value -> 41.41
+" [label=False]
+}

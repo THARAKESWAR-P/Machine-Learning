@@ -1,0 +1,3 @@
+digraph "Regression Tree" {
+	node [shape=rectangle]
+}
